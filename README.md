@@ -1,9 +1,5 @@
-# Atividade 02 de LP1
-#### Aluno: José Rogério da Silva Júnior
-#### [Auto-Avaliação](https://github.com/LP12021-1/trabalho-02-jrogeriosilva/blob/master/Notas_U2.ods)
----
 # Sobre o projeto: 
-Backend de sistema com recursos de criação de servidores de troca de mensagens similar ao discord, onde é possivel criar canais de textos e troca de mensagens entre usuarios.
+Sistema com recursos de criação de servidores de troca de mensagens similar ao discord ou IRC, onde é possivel criar canais de textos e troca de mensagens entre usuarios.
 
 ![image](https://user-images.githubusercontent.com/15113099/128610441-4ad22d67-4baf-42b3-ae06-77ebbc42b6c4.png)
 
