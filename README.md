@@ -1,3 +1,4 @@
+[![GitHub license](https://img.shields.io/github/license/jrogeriosilva/concordo)](https://github.com/jrogeriosilva/concordo/blob/main/LICENSE)
 # Sobre o projeto: 
 Sistema com recursos de criação de servidores de troca de mensagens similar ao discord ou IRC, onde é possivel criar canais de textos e troca de mensagens entre usuarios.
 
