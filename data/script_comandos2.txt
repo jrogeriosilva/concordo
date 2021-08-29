@@ -1,0 +1,49 @@
+create-user rogerio@imd.ufrn.br senhalegal Rogerio
+create-user joao@imd.ufrn.br senhalegal João
+create-user maria@imd.ufrn.br senhalegal Maria
+create-user BAD_EMAIL senhaInsana Ninguem
+login rogerio@imd.ufrn.br SenhaErrada
+login rogerio@imd.ufrn.br senhalegal
+login joao@imd.ufrn.br senhalegal
+login maria@imd.ufrn.br senhalegal
+create-server 0 servidor-unico
+create-server 0 servidor-unico
+enter-server 0 servidor-inexistente
+enter-server 0 servidor-unico
+enter-server 1 servidor-unico
+enter-server 2 servidor-unico
+list-channels 0
+create-channel 0 canal-vazio
+enter-channel 0 canal-vazio
+list-messages 0
+create-channel 0 canal-com-mensagem
+enter-channel 0 canal-com-mensagem
+enter-channel 1 canal-com-mensagem
+enter-channel 2 canal-com-mensagem
+send-message 0 Ei, vou apagar o servidor
+send-message 1 Vlw Flw
+send-message 2 Ok
+list-messages 0
+remove-server 0 servidor-unico
+remove-server 0 servidor-inexistente
+create-server 0 servidor-novo
+set-server-invite-code 0 servidor-novo 123
+set-server-desc 0 servidor-novo Esse é o servidor novo
+enter-server 0 servidor-novo
+enter-server 1 servidor-novo nao_sei_o_codigo
+enter-server 1 servidor-novo 123
+enter-server 2 servidor-novo 123
+list-participants 0
+create-channel 0 canal-novo
+enter-channel 0 canal-novo
+enter-channel 1 canal-novo
+enter-channel 2 canal-novo
+send-message 0 Agora vai Galera!
+send-message 0 Olha só pessoal está funcionando o chat!!
+send-message 1 Caramba que Legal
+send-message 2 Incrível!!!!
+send-message 0 Próxima semana estará funcionando a Comunicação por Voz
+send-message 0 Aguardem, irá desbancar o discord. rsrsrs.
+list-messages 0
+quit
+FIM Essa Linha nao sera executada
